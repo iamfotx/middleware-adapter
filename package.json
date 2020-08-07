@@ -1,20 +1,12 @@
 {
-  "name": "middleware-adapter",
-  "version": "0.0.0-semantically-released",
-  "description": "An adapter for React's useReducer hook to enable support for middleware(s).",
-  "main": "dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:iamfotx/middleware-adapter.git"
+  "private": true,
+  "workspaces": [
+    "/packages/*"
+  ],
+  "devEngines": {
+    "node": "8.x || 9.x || 10.x || 11.x || 12.x || 13.x || 14.x"
   },
-  "author": "Ahmad Raza <iamfotx@gmail.com> (https://github.com/iamfotx)",
-  "license": "MIT",
-  "private": false,
-  "bugs": {
-    "url": "https://github.com/iamfotx/middleware-adapter/issues"
-  },
-  "homepage": "https://github.com/iamfotx/middleware-adapter#readme",
-  "files": [
-    "dist"
-  ]
+  "scripts": {
+    "dev": "node ./packages/middleware-adapter/src"
+  }
 }
