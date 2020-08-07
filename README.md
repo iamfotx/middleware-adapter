@@ -1,7 +1,7 @@
 <div align="center">
 <h1>use-middleware</h1>
 
-<p>An extension for React&#39;s useReducer hook to enable support for middlewares.</p>
+<p>A wrapper hook for React&#39;s useReducer hook to enable support for middlewares.</p>
 </div>
 
 ---
