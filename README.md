@@ -144,8 +144,8 @@ MIT
 [coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/use-middleware.svg?style=flat-square
 [coverage]: https://codecov.io/github/iamfotx/use-middleware
 [version-badge]: https://img.shields.io/npm/v/use-middleware.svg?style=flat-square
-[package]: https://www.npmjs.com/package/use-middleware
-[downloads-badge]: https://img.shields.io/npm/dm/use-middleware.svg?style=flat-square
-[npmtrends]: http://www.npmtrends.com/use-middleware
+[package]: https://www.npmjs.com/package/@iamfotx/use-middleware
+[downloads-badge]: https://img.shields.io/npm/dm/@iamfotx/use-middleware.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/@iamfotx/use-middleware
 [license-badge]: https://img.shields.io/npm/l/use-middleware.svg?style=flat-square
 <!-- prettier-ignore-end -->
