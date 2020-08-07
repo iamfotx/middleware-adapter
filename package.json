@@ -1,0 +1,20 @@
+{
+  "name": "use-middleware",
+  "version": "0.0.0-semantically-released",
+  "description": "A wrapper for React's useReducer hook to enable support for middlewares.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iamfotx/use-middleware.git"
+  },
+  "author": "Ahmad Raza <iamfotx@gmail.com> (https://github.com/iamfotx)",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/iamfotx/use-middleware/issues"
+  },
+  "homepage": "https://github.com/iamfotx/use-middleware#readme",
+  "files": [
+    "dist"
+  ]
+}
