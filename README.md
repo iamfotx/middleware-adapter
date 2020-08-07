@@ -1,7 +1,7 @@
 <div align="center">
-<h1>use-middleware</h1>
+<h1>Middleware Adapter</h1>
 
-<p>A wrapper for React&#39;s useReducer hook to enable support for middlewares.</p>
+<p>An adapter for React&#39;s useReducer hook to enable support for middleware(s).</p>
 </div>
 
 ---
@@ -48,13 +48,13 @@ This module is distributed via [npm][npm] which is bundled with [node][node] and
 should be installed as one of your project's `dependencies`:
 
 ```
-npm install --save use-middleware
+npm install --save middleware-adapter
 ```
 
 or 
 
 ```
-yarn add use-middleware
+yarn add middleware-adapter
 ```
 
 ## Usage
@@ -106,10 +106,10 @@ Thanks goes to these people ([emoji key][emojis]):
         </sub>
       </a>
       <br />
-      <a href="https://github.com/iamfotx/use-middleware/commits?author=iamfotx" title="Code">💻</a>
-      <a href="https://github.com/iamfotx/use-middleware/commits?author=iamfotx" title="Documentation">📖</a> 
+      <a href="https://github.com/iamfotx/middleware-adapter/commits?author=iamfotx" title="Code">💻</a>
+      <a href="https://github.com/iamfotx/middleware-adapter/commits?author=iamfotx" title="Documentation">📖</a> 
       <a href="#infra-iamfotx" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a>
-      <a href="https://github.com/iamfotx/use-middleware/commits?author=iamfotx" title="Tests">⚠️</a>
+      <a href="https://github.com/iamfotx/middleware-adapter/commits?author=iamfotx" title="Tests">⚠️</a>
     </td>
   </tr>
 </table>
@@ -129,23 +129,23 @@ MIT
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
-[license]: https://github.com/iamfotx/use-middleware/blob/master/LICENSE
+[license]: https://github.com/iamfotx/middleware-adapter/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/iamfotx/use-middleware/blob/master/other/CODE_OF_CONDUCT.md
+[coc]: https://github.com/iamfotx/middleware-adapter/blob/master/other/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/all-contributors/all-contributors#emoji-key
 [all-contributors]: https://github.com/all-contributors/all-contributors
-[bugs]: https://github.com/iamfotx/use-middleware/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
-[requests]: https://github.com/iamfotx/use-middleware/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
-[good-first-issue]: https://github.com/iamfotx/use-middleware/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
-[build-badge]: https://img.shields.io/travis/com/iamfotx/use-middleware.svg?style=flat-square
-[build]: https://travis-ci.com/iamfotx/use-middleware
-[coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/use-middleware.svg?style=flat-square
-[coverage]: https://codecov.io/github/iamfotx/use-middleware
-[version-badge]: https://img.shields.io/npm/v/use-middleware.svg?style=flat-square
-[package]: https://www.npmjs.com/package/@iamfotx/use-middleware
-[downloads-badge]: https://img.shields.io/npm/dm/@iamfotx/use-middleware.svg?style=flat-square
-[npmtrends]: http://www.npmtrends.com/@iamfotx/use-middleware
-[license-badge]: https://img.shields.io/npm/l/use-middleware.svg?style=flat-square
+[bugs]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
+[requests]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
+[good-first-issue]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
+[build-badge]: https://img.shields.io/travis/com/iamfotx/middleware-adapter.svg?style=flat-square
+[build]: https://travis-ci.com/iamfotx/middleware-adapter
+[coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/middleware-adapter.svg?style=flat-square
+[coverage]: https://codecov.io/github/iamfotx/middleware-adapter
+[version-badge]: https://img.shields.io/npm/v/middleware-adapter.svg?style=flat-square
+[package]: https://www.npmjs.com/package/@iamfotx/middleware-adapter
+[downloads-badge]: https://img.shields.io/npm/dm/@iamfotx/middleware-adapter.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/@iamfotx/middleware-adapter
+[license-badge]: https://img.shields.io/npm/l/middleware-adapter.svg?style=flat-square
 <!-- prettier-ignore-end -->
