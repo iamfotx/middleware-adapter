@@ -11,8 +11,8 @@
 <!-- [![Code Coverage][coverage-badge]][coverage] -->
 <!-- [![version][version-badge]][package] -->
 <!-- [![downloads][downloads-badge]][npmtrends] -->
-[![MIT License][license-badge]][license]
 
+[![MIT License][license-badge]][license]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 [![PRs Welcome][prs-badge]][prs]
 [![Code of Conduct][coc-badge]][coc]
@@ -130,15 +130,6 @@ MIT
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
-<!-- [build-badge]: https://img.shields.io/travis/com/iamfotx/use-middleware.svg?style=flat-square
-[build]: https://travis-ci.com/iamfotx/use-middleware
-[coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/use-middleware.svg?style=flat-square
-[coverage]: https://codecov.io/github/iamfotx/use-middleware
-[version-badge]: https://img.shields.io/npm/v/use-middleware.svg?style=flat-square
-[package]: https://www.npmjs.com/package/use-middleware
-[downloads-badge]: https://img.shields.io/npm/dm/use-middleware.svg?style=flat-square
-[npmtrends]: http://www.npmtrends.com/use-middleware
-[license-badge]: https://img.shields.io/npm/l/use-middleware.svg?style=flat-square -->
 [license]: https://github.com/iamfotx/use-middleware/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
@@ -149,4 +140,13 @@ MIT
 [bugs]: https://github.com/iamfotx/use-middleware/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
 [requests]: https://github.com/iamfotx/use-middleware/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
 [good-first-issue]: https://github.com/iamfotx/use-middleware/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
+<!-- [build-badge]: https://img.shields.io/travis/com/iamfotx/use-middleware.svg?style=flat-square
+[build]: https://travis-ci.com/iamfotx/use-middleware
+[coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/use-middleware.svg?style=flat-square
+[coverage]: https://codecov.io/github/iamfotx/use-middleware
+[version-badge]: https://img.shields.io/npm/v/use-middleware.svg?style=flat-square
+[package]: https://www.npmjs.com/package/use-middleware
+[downloads-badge]: https://img.shields.io/npm/dm/use-middleware.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/use-middleware
+[license-badge]: https://img.shields.io/npm/l/use-middleware.svg?style=flat-square -->
 <!-- prettier-ignore-end -->
