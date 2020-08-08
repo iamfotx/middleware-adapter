@@ -18,7 +18,7 @@
     "format": "yarn prettier --write",
     "check-format": "yarn prettier --list-different",
     "check-types": "tsc",
-    "validate": "yarn run lint && yarn check-format && yarn check-types && yarn build"
+    "validate": "npm-run-all --parallel lint check-format check-types build"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -32,6 +32,7 @@
     "husky": "^4.2.5",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.7"
