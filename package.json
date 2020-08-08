@@ -11,21 +11,24 @@
     "dev": "node ./packages/middleware-adapter/src",
     "all": "yarn workspaces run",
     "clean": "node ./scripts/rimraf/rimraf.js lib dist es coverage types",
-    "build": " yarn all build",
+    "build": " yarn all build --root-mode upward",
     "lint": "eslint --ignore-path .gitignore .",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
     "format": "yarn prettier --write",
     "check-format": "yarn prettier --list-different",
-    "validate": "yarn run lint && yarn check-format && yarn build"
+    "check-types": "tsc",
+    "validate": "yarn run lint && yarn check-format && yarn check-types && yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "lerna": "^3.22.1",
     "prettier": "^2.0.5",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
   }
 }

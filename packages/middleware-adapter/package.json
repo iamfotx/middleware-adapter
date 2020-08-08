@@ -19,6 +19,6 @@
     "src"
   ],
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "babel src --extensions .js,.ts,.tsx --out-dir dist"
   }
 }
