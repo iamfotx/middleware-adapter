@@ -17,5 +17,8 @@
   "files": [
     "dist",
     "src"
-  ]
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  }
 }

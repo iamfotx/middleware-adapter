@@ -1,18 +1,24 @@
 {
+  "name": "middleware-adapter",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "devEngines": {
-    "node": "8.x || 9.x || 10.x || 11.x || 12.x || 13.x || 14.x"
+    "node": "12.x || 13.x || 14.x"
   },
   "scripts": {
-    "dev": "node ./packages/middleware-adapter/src"
+    "dev": "node ./packages/middleware-adapter/src",
+    "all": "yarn workspaces run",
+    "clean": "node ./scripts/rimraf/rimraf.js lib dist es coverage types",
+    "build": " yarn all build"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
-    "eslint": "^7.6.0"
+    "eslint": "^7.6.0",
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2"
   }
 }
