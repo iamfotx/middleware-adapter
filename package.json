@@ -12,7 +12,8 @@
     "all": "yarn workspaces run",
     "clean": "node ./scripts/rimraf/rimraf.js lib dist es coverage types",
     "build": " yarn all build",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -20,6 +21,7 @@
     "@babel/preset-env": "^7.11.0",
     "eslint": "^7.6.0",
     "lerna": "^3.22.1",
+    "prettier": "^2.0.5",
     "rimraf": "^3.0.2"
   }
 }
