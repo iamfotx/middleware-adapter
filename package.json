@@ -2,7 +2,7 @@
   "name": "middleware-adapter",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/middleware-adapter"
   ],
   "devEngines": {
     "node": "12.x || 13.x || 14.x"
@@ -13,7 +13,10 @@
     "clean": "node ./scripts/rimraf/rimraf.js lib dist es coverage types",
     "build": " yarn all build",
     "lint": "eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "yarn prettier --write",
+    "check-format": "yarn prettier --list-different",
+    "validate": "yarn run lint && yarn check-format && yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
