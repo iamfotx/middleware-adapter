@@ -1,6 +1,6 @@
-const rimraf = require('rimraf')
-const path = require('path')
-const getChildDirsName = require('../shared/get-child-dirs-name')
+import rimraf from 'rimraf'
+import path from 'path'
+import {getChildDirsName} from '../shared/get-child-dirs-name.mjs'
 
 const fullPathToPackages = path.join(process.cwd(), 'packages')
 const dirsNameWithinPackages = getChildDirsName(fullPathToPackages)

@@ -1,9 +1,7 @@
-const fs = require('fs')
+import fs from 'fs'
 
-function getChildDirsName(path) {
+export function getChildDirsName(path) {
   return fs.readdirSync(path).filter(function (file) {
     return fs.statSync(path + '/' + file).isDirectory()
   })
 }
-
-module.exports = getChildDirsName
