@@ -7,6 +7,9 @@ module.exports = {
     'packages/*/src/**/*.ts',
     'packages/*/src/**/*.cjs',
   ],
+  moduleDirectories: ['node_modules'],
+  coverageReporters: ['json', 'html', 'cobertura'],
+  moduleFileExtensions: ['ts', 'js', 'cjs', 'mjs'],
   testMatch: [
     '**/__tests__/**/*.+(ts|tsx|js|cjs|mjs)',
     '**/?(*.)+(spec|test).+(ts|tsx|js|cjs|mjs)',
