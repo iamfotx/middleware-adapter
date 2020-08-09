@@ -11,10 +11,10 @@
   "scripts": {
     "dev": "node ./packages/middleware-adapter/src",
     "all": "yarn workspaces run",
-    "clean": "node --experimental-modules ./scripts/rimraf/rimraf.mjs lib dist es coverage types",
+    "clean": "node --experimental-modules ./scripts/rimraf/rimraf.js lib dist es coverage types",
     "build": " yarn all build --root-mode upward",
-    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx,.mjs,.cjs .",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx|mjs|cjs)\"",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx,.cjs .",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx|cjs)\"",
     "format": "yarn prettier --write",
     "check-format": "yarn prettier --list-different",
     "check-types": "tsc",
