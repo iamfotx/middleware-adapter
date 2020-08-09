@@ -4,11 +4,16 @@
 name: Build
 
 on:
-  pull_request:
-    branches:
-      - master
-    paths:
-      - 'packages/**'
+    push:
+        branches: 
+            - master
+        paths:
+            - 'packages/**'
+    pull_request:
+        branches:
+            - master
+        paths:
+            - 'packages/**'
 
 jobs:
   build:
