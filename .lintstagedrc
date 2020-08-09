@@ -1,6 +1,7 @@
 {
   "*.+(js|ts|tsx|mjs|cjs)": [
-    "eslint"
+    "eslint",
+    jest --config ./jest.config.cjs --findRelatedTests
   ],
   "*.+(js|json|ts|tsx|mjs|cjs)": [
     "prettier --write"
