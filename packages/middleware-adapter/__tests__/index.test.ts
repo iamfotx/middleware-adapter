@@ -1,3 +1,5 @@
+import {add} from '../src/index'
+
 test('initial test setup', () => {
-  expect(1).toEqual(1)
+  expect(add(1, 2, 3)).toEqual(6)
 })
