@@ -153,7 +153,7 @@ MIT
 [requests]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
 [good-first-issue]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
 [build-badge]: https://img.shields.io/travis/com/iamfotx/middleware-adapter.svg?style=flat-square
-[build]: https://travis-ci.com/iamfotx/middleware-adapter
+[build]: https://github.com/iamfotx/middleware-adapter/.github/workflows/types-build.yml/badge.svg
 [coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/middleware-adapter.svg?style=flat-square
 [coverage]: https://codecov.io/github/iamfotx/middleware-adapter
 [version-badge]: https://img.shields.io/npm/v/middleware-adapter.svg?style=flat-square
