@@ -77,7 +77,7 @@ label._
 
 ### 🐛 Bugs
 
-Please file an issue for bugs, missing documentation, or unexpected behavior.
+Please file an issue for bugs, missing documentation, or unexpected behaviour.
 
 [**See Bugs**][bugs]
 
