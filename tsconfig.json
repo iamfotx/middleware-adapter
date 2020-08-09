@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true
+  },
+  "include": ["packages"],
+  "exclude": ["packages/*/lib", "packages/*/es", "packages/*/dist"]
+}

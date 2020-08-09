@@ -1,12 +1,40 @@
 {
+  "name": "middleware-adapter",
   "private": true,
+  "type": "module",
   "workspaces": [
-    "packages/*"
+    "packages/middleware-adapter"
   ],
   "devEngines": {
-    "node": "8.x || 9.x || 10.x || 11.x || 12.x || 13.x || 14.x"
+    "node": "12.x || 13.x || 14.x"
   },
   "scripts": {
-    "dev": "node ./packages/middleware-adapter/src"
+    "dev": "node ./packages/middleware-adapter/src",
+    "all": "yarn workspaces run",
+    "clean": "node --experimental-modules ./scripts/rimraf/rimraf.mjs lib dist es coverage types",
+    "build": " yarn all build --root-mode upward",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx,.mjs,.cjs .",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx|mjs|cjs)\"",
+    "format": "yarn prettier --write",
+    "check-format": "yarn prettier --list-different",
+    "check-types": "tsc",
+    "validate": "npm-run-all --parallel lint check-format check-types build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
   }
 }
