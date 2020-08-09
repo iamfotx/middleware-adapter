@@ -51,7 +51,7 @@ should be installed as one of your project's `dependencies`:
 npm install --save middleware-adapter
 ```
 
-or 
+or
 
 ```
 yarn add middleware-adapter
@@ -110,6 +110,19 @@ Thanks goes to these people ([emoji key][emojis]):
       <a href="https://github.com/iamfotx/middleware-adapter/commits?author=iamfotx" title="Documentation">📖</a> 
       <a href="#infra-iamfotx" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a>
       <a href="https://github.com/iamfotx/middleware-adapter/commits?author=iamfotx" title="Tests">⚠️</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/amirsaeed671">
+        <img src="https://github.com/amirsaeed671.png" width="100px;" alt="Amir Saeed"/>
+        <br />
+        <sub>
+          <b>Amir Saeed</b>
+        </sub>
+      </a>
+      <br />
+      <a href="https://github.com/iamfotx/middleware-adapter/commits?author=amirsaeed671" title="Code">💻</a>
+      <a href="https://github.com/iamfotx/middleware-adapter/commits?author=amirsaeed671" title="Documentation">📖</a> 
+      <a href="https://github.com/iamfotx/middleware-adapter/commits?author=amirsaeed671" title="Tests">⚠️</a>
     </td>
   </tr>
 </table>
