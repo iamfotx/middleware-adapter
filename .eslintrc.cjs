@@ -1,3 +1,4 @@
+const path = require('path')
 const OFF = 0
 const ERROR = 2
 
@@ -9,6 +10,7 @@ module.exports = {
   env: {
     node: true,
     browser: true,
+    jest: true,
   },
   parserOptions: {
     ecmaVersion: 2020,
@@ -42,6 +44,16 @@ module.exports = {
     'max-len': OFF,
   },
   overrides: [
+    {
+      files: ['**/__test__/**'],
+      settings: {
+        'import/resolver': {
+          jest: {
+            jestConfigFile: path.join(__dirname, './jest.config'),
+          },
+        },
+      },
+    },
     {
       files: '**/*.+(ts|tsx)',
       parser: '@typescript-eslint/parser',
