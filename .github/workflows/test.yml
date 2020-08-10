@@ -29,8 +29,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - run: yarn global add codecov
       - run: yarn install
-      - run: yarn test
+      - run: yarn test:cov
       - run: codecov
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

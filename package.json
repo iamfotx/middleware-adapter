@@ -20,7 +20,7 @@
     "check-types": "tsc",
     "test": "jest --config ./jest.config.cjs",
     "test:watch": "yarn test --watch",
-    "test:cov": "yarn test --coverage && open ./coverage/index.html",
+    "test:cov": "yarn test --coverage",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
     "validate": "npm-run-all --parallel lint check-format check-types build"
   },
