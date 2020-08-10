@@ -14,7 +14,7 @@
     "clean": "node --experimental-modules ./scripts/rimraf/rimraf.js lib dist es coverage types",
     "build": " yarn all build --root-mode upward",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx,.cjs .",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx|cjs)\"",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx|cjs|yml)\"",
     "format": "yarn prettier --write",
     "check-format": "yarn prettier --list-different",
     "check-types": "tsc",

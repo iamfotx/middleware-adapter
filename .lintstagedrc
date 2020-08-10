@@ -3,7 +3,7 @@
     "eslint",
     jest --config ./jest.config.cjs --findRelatedTests
   ],
-  "*.+(js|json|ts|tsx|cjs)": [
+  "*.+(js|json|ts|tsx|cjs|yml)": [
     "prettier --write"
   ]
 }
