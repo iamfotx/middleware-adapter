@@ -4,12 +4,6 @@
 name: Tests
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'packages/**'
-      - 'scripts/**'
   pull_request:
     branches:
       - master
@@ -18,7 +12,7 @@ on:
       - 'scripts/**'
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -35,3 +29,12 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           directory: ./coverage
+  update_commit_status:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v2
+      - name: Lint Status
+        uses: ouzi-dev/commit-status-updater@v1.0.4
+        with:
+          status: ${{ job.status }}
