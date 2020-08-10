@@ -18,9 +18,9 @@
     "format": "yarn prettier --write",
     "check-format": "yarn prettier --list-different",
     "check-types": "tsc",
-    "jest": "jest --config ./jest.config.cjs",
-    "test:watch": "yarn jest --watch",
-    "test:coverage": "yarn jest --coverage",
+    "test": "jest --config ./jest.config.cjs",
+    "test:watch": "yarn test --watch",
+    "test:cov": "yarn test --coverage && open ./coverage/index.html",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
     "validate": "npm-run-all --parallel lint check-format check-types build"
   },

@@ -1,23 +1,18 @@
 module.exports = {
-  roots: ['<rootDir>/packages'],
+  rootDir: process.cwd(),
+  roots: ['<rootDir>/packages', '<rootDir>/scripts'],
   preset: 'ts-jest',
-  collectCoverageFrom: [
-    'packages/*/src/**/*.mjs',
-    'packages/*/src/**/*.js',
-    'packages/*/src/**/*.ts',
-    'packages/*/src/**/*.cjs',
-  ],
+  collectCoverageFrom: ['packages/**/*.+(ts|tsx)'],
   moduleDirectories: ['node_modules'],
   coverageReporters: ['json', 'html', 'cobertura'],
-  moduleFileExtensions: ['ts', 'js', 'cjs', 'mjs'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   testMatch: [
-    '**/__tests__/**/*.+(ts|tsx|js|cjs|mjs)',
-    '**/?(*.)+(spec|test).+(ts|tsx|js|cjs|mjs)',
+    '**/__tests__/**/*.+(ts|tsx|js)',
+    '**/?(*.)+(spec|test).+(ts|tsx|js)',
   ],
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  testEnvironment: 'node',
   setupFilesAfterEnv: ['<rootDir>/test/testSetupFile.js'],
   coveragePathIgnorePatterns: [
     '/node_modules/',
