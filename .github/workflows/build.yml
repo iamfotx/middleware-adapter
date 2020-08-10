@@ -4,11 +4,6 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'packages/**'
   pull_request:
     branches:
       - master
@@ -34,7 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - uses: actions/checkout@v2
       - name: Build Status
-      - uses: ouzi-dev/commit-status-updater@v1.0.4
+        uses: ouzi-dev/commit-status-updater@v1.0.4
         with:
           status: ${{ jobs.status }}
