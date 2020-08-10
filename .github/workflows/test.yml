@@ -4,6 +4,12 @@
 name: Tests
 
 on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'packages/**'
+      - 'scripts/**'
   pull_request:
     branches:
       - master
