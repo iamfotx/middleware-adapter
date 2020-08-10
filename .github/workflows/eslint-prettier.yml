@@ -4,6 +4,9 @@
 name: ESLint & Prettier
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
