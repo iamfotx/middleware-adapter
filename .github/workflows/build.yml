@@ -5,8 +5,8 @@ name: CI
 
 on:
   push:
-    brnaches:
-      - '!master' # excludes master
+    brnaches-ignore:
+      - 'master' # excludes master
     # Commenting out for now, as Git action doesn't support conditional required checks
     # paths:
     #   - 'packages/**'
