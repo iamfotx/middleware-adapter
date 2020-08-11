@@ -28,7 +28,6 @@ jobs:
       - run: yarn lint
   Prettier:
     runs-on: ubuntu-latest
-    needs: Eslint
     strategy:
       matrix:
         node-version: [12.x]
