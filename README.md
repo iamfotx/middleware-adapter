@@ -7,7 +7,7 @@
 ---
 
 <!-- prettier-ignore-start -->
-![build]
+![CI]
 [![Code Coverage][coverage-badge]][coverage]
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npmtrends]
@@ -152,7 +152,7 @@ MIT
 [bugs]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Acreated-desc+label%3Abug
 [requests]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement
 [good-first-issue]: https://github.com/iamfotx/middleware-adapter/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3Aenhancement+label%3A%22good+first+issue%22
-[build]: https://github.com/iamfotx/middleware-adapter/workflows/Build/badge.svg
+[CI]: https://github.com/iamfotx/middleware-adapter/workflows/CI/badge.svg
 [coverage-badge]: https://img.shields.io/codecov/c/github/iamfotx/middleware-adapter.svg?style=flat-square
 [coverage]: https://codecov.io/github/iamfotx/middleware-adapter
 [version-badge]: https://img.shields.io/npm/v/middleware-adapter.svg?style=flat-square
