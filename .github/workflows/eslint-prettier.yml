@@ -3,10 +3,7 @@
 
 name: CI
 
-on:
-  push:
-    branches-ignore:
-      - 'master' # excludes master
+on: push
 
 jobs:
   Eslint:
