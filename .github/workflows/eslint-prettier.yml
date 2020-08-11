@@ -5,7 +5,7 @@ name: CI
 
 on:
   push:
-    brnaches-ignore:
+    branches-ignore:
       - 'master' # excludes master
 
 jobs:
