@@ -3,10 +3,7 @@
 
 name: CI
 
-on:
-  push:
-    branches-ignore:
-      - 'master' # excludes master
+on: push
     # Commenting out for now, as Git action doesn't support conditional required checks
     # paths:
     #   - 'packages/**'
