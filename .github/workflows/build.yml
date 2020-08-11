@@ -6,9 +6,6 @@ name: CI
 on:
   push:
     brnaches:
-      - '*' # matches every branch that doesn't contain a '/'
-      - '*/*' # matches every branch containing a single '/'
-      - '**' # matches every branch
       - '!master' # excludes master
     # Commenting out for now, as Git action doesn't support conditional required checks
     # paths:
@@ -28,7 +25,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn install
-      - run: yarn check-types
       - run: yarn test:cov
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
@@ -47,4 +43,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn install
+      - run: yarn check-types
       - run: yarn build
