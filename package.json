@@ -22,7 +22,7 @@
     "test:watch": "yarn test --watch",
     "test:cov": "yarn test --coverage",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
-    "validate": "npm-run-all --parallel lint check-format check-types build"
+    "validate": "npm-run-all --parallel lint check-format check-types test build"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
