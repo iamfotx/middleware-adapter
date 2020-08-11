@@ -5,8 +5,8 @@ name: CI
 
 on:
   push:
-    brnaches:
-      - '!master' # excludes master
+    brnaches-ignore:
+      - 'master' # excludes master
 
 jobs:
   Eslint:
