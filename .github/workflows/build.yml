@@ -10,9 +10,10 @@ on:
       - '*/*' # matches every branch containing a single '/'
       - '**' # matches every branch
       - '!master' # excludes master
-    paths:
-      - 'packages/**'
-      - 'scripts/**'
+    # Commenting out for now, as Git action doesn't support conditional required checks
+    # paths:
+    #   - 'packages/**'
+    #   - 'scripts/**'
 jobs:
   Tests:
     runs-on: ubuntu-latest
